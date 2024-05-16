@@ -1,12 +1,3 @@
-## Questions / Unknowns
-1. Total number of task hours that make an engineer unavailable. We will go with so long as an engineer has a task they are not available
-2. Example usage and instruction number 5 contradict. We assume that in case no engineer is available we will return a task and mark it as unassigned. Rather that returning an engineer and say they are Unassigned 
-
-<br> 
-
-## Data.SQL 
-
-```
 INSERT INTO skills (skill_id, skill) VALUES (1, 'Java');
 INSERT INTO skills (skill_id, skill) VALUES (2, 'Python');
 INSERT INTO skills (skill_id, skill) VALUES (3, 'Javascript');
@@ -29,9 +20,3 @@ INSERT INTO task_skills (task_id, skill_id) VALUES (1, 1);
 INSERT INTO task_skills (task_id, skill_id) VALUES (1, 3);
 INSERT INTO task_skills (task_id, skill_id) VALUES (2, 3);
 INSERT INTO task_skills (task_id, skill_id) VALUES (3, 2);
-``` 
-
-<br> 
-
-## Schema.SQL 
-
